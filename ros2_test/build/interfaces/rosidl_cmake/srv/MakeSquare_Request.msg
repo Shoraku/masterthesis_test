@@ -1,5 +1,0 @@
-int32 sender_id
-int32 receiver_id
-builtin_interfaces/Time timestamp 
-string message_type
-float32 value

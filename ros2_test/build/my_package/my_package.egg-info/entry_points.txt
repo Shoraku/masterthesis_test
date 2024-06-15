@@ -1,4 +1,0 @@
-[console_scripts]
-client = my_package.A:main
-service = my_package.B:main
-
