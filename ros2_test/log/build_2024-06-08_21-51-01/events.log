@@ -1,0 +1,442 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000411] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000439] (my_package2) JobQueued: {'identifier': 'my_package2', 'dependencies': OrderedDict()}
+[0.000470] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.004532] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.007739] (my_package2) JobStarted: {'identifier': 'my_package2'}
+[0.011219] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.011776] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.012245] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces', '--', '-j16', '-l16'], 'cwd': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'shorif'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/shorif'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3595'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shorif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shorif'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/shorif/miniconda3/bin:/home/shorif/miniconda3/condabin:/home/shorif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Shorifs-Rechner:@/tmp/.ICE-unix/2228,unix/Shorifs-Rechner:/tmp/.ICE-unix/2228'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/892f28ef_92fa_44ba_906d_806b62d3f87f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/shorif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shorif/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/shorif/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099810] (-) TimerEvent: {}
+[0.188977] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.189610] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.189736] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192661] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199863] (-) TimerEvent: {}
+[0.216252] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.299955] (-) TimerEvent: {}
+[0.400186] (-) TimerEvent: {}
+[0.500407] (-) TimerEvent: {}
+[0.544001] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[0.588308] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build', 'install', '--record', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'shorif', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/shorif', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3595', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'shorif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shorif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/shorif/miniconda3/bin:/home/shorif/miniconda3/condabin:/home/shorif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Shorifs-Rechner:@/tmp/.ICE-unix/2228,unix/Shorifs-Rechner:/tmp/.ICE-unix/2228', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/892f28ef_92fa_44ba_906d_806b62d3f87f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'de_DE.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'CONDA_PYTHON_EXE': '/home/shorif/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shorif/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'CONDA_PREFIX': '/home/shorif/miniconda3', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.590398] (my_package2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package2', 'build', '--build-base', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/build', 'install', '--record', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'shorif', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/shorif', 'CONDA_SHLVL': '1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3595', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'shorif', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'shorif', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/shorif/miniconda3/bin:/home/shorif/miniconda3/condabin:/home/shorif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Shorifs-Rechner:@/tmp/.ICE-unix/2228,unix/Shorifs-Rechner:/tmp/.ICE-unix/2228', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/892f28ef_92fa_44ba_906d_806b62d3f87f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'de_DE.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'CONDA_PYTHON_EXE': '/home/shorif/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/shorif/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'CONDA_PREFIX': '/home/shorif/miniconda3', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.600465] (-) TimerEvent: {}
+[0.664561] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700549] (-) TimerEvent: {}
+[0.747226] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.747668] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[0.747838] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[0.748000] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[0.748120] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[0.748229] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[0.748880] (my_package2) StdoutLine: {'line': b'running egg_info\n'}
+[0.749284] (my_package2) StdoutLine: {'line': b'writing ../../build/my_package2/my_package2.egg-info/PKG-INFO\n'}
+[0.749429] (my_package2) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package2/my_package2.egg-info/dependency_links.txt\n'}
+[0.749556] (my_package2) StdoutLine: {'line': b'writing entry points to ../../build/my_package2/my_package2.egg-info/entry_points.txt\n'}
+[0.749622] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.749706] (my_package2) StdoutLine: {'line': b'writing requirements to ../../build/my_package2/my_package2.egg-info/requires.txt\n'}
+[0.749801] (my_package2) StdoutLine: {'line': b'writing top-level names to ../../build/my_package2/my_package2.egg-info/top_level.txt\n'}
+[0.750281] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[0.750384] (my_package) StdoutLine: {'line': b'running build\n'}
+[0.750467] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[0.750687] (my_package) StdoutLine: {'line': b'running install\n'}
+[0.750786] (my_package2) StdoutLine: {'line': b"reading manifest file '../../build/my_package2/my_package2.egg-info/SOURCES.txt'\n"}
+[0.750935] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.751027] (my_package2) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.751381] (my_package2) StdoutLine: {'line': b"writing manifest file '../../build/my_package2/my_package2.egg-info/SOURCES.txt'\n"}
+[0.751472] (my_package2) StdoutLine: {'line': b'running build\n'}
+[0.751552] (my_package2) StdoutLine: {'line': b'running build_py\n'}
+[0.751649] (my_package2) StdoutLine: {'line': b'copying my_package2/B_Action_Server.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/build/lib/my_package2\n'}
+[0.751796] (my_package2) StdoutLine: {'line': b'running install\n'}
+[0.751951] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[0.752049] (my_package2) StdoutLine: {'line': b'running install_lib\n'}
+[0.752141] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.752415] (my_package2) StdoutLine: {'line': b'copying /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/build/lib/my_package2/B_Action_Server.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/python3.10/site-packages/my_package2\n'}
+[0.752872] (my_package2) StdoutLine: {'line': b'byte-compiling /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/python3.10/site-packages/my_package2/B_Action_Server.py to B_Action_Server.cpython-310.pyc\n'}
+[0.753187] (my_package) StdoutLine: {'line': b"removing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.753294] (my_package2) StdoutLine: {'line': b'running install_data\n'}
+[0.753393] (my_package2) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.753554] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[0.754282] (my_package2) StdoutLine: {'line': b"removing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/python3.10/site-packages/my_package2-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.754382] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.754525] (my_package2) StdoutLine: {'line': b'Copying ../../build/my_package2/my_package2.egg-info to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/python3.10/site-packages/my_package2-0.0.0-py3.10.egg-info\n'}
+[0.755283] (my_package2) StdoutLine: {'line': b'running install_scripts\n'}
+[0.767118] (my_package) StdoutLine: {'line': b'Installing client script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package\n'}
+[0.767262] (my_package) StdoutLine: {'line': b'Installing service script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package\n'}
+[0.767506] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log'\n"}
+[0.767791] (my_package2) StdoutLine: {'line': b'Installing action_server script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package2/lib/my_package2\n'}
+[0.768030] (my_package2) StdoutLine: {'line': b"writing list of installed files to '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package2/install.log'\n"}
+[0.785163] (my_package2) CommandEnded: {'returncode': 0}
+[0.793652] (my_package2) JobEnded: {'identifier': 'my_package2', 'rc': 0}
+[0.794433] (my_package) CommandEnded: {'returncode': 0}
+[0.798142] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.800604] (-) TimerEvent: {}
+[0.820678] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.832988] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[0.845322] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/shorif/miniconda3/bin/python3\n'}
+[0.845402] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/shorif/miniconda3/include/python3.10\n'}
+[0.845459] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/shorif/miniconda3/lib/libpython3.10.so\n'}
+[0.900688] (-) TimerEvent: {}
+[0.940829] (interfaces) StdoutLine: {'line': b'-- Using numpy include directory: /home/shorif/.local/lib/python3.10/site-packages/numpy/core/include\n'}
+[0.948107] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.960843] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.962086] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.964546] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.994271] (interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:166 (add_library):\n'}
+[0.994375] (interfaces) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.994438] (interfaces) StderrLine: {'line': b'  interfaces__rosidl_generator_py because files in some directories may\n'}
+[0.994497] (interfaces) StderrLine: {'line': b'  conflict with libraries in implicit directories:\n'}
+[0.994551] (interfaces) StderrLine: {'line': b'\n'}
+[0.994603] (interfaces) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.994657] (interfaces) StderrLine: {'line': b'      /home/shorif/miniconda3/lib\n'}
+[0.994709] (interfaces) StderrLine: {'line': b'\n'}
+[0.994761] (interfaces) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.994813] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.994866] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[0.994919] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[0.994972] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.995023] (interfaces) StderrLine: {'line': b'\n'}
+[0.995073] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.997824] (interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[0.997907] (interfaces) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[0.997978] (interfaces) StderrLine: {'line': b'  interfaces__rosidl_typesupport_fastrtps_c__pyext because files in some\n'}
+[0.998035] (interfaces) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[0.998088] (interfaces) StderrLine: {'line': b'\n'}
+[0.998140] (interfaces) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.998193] (interfaces) StderrLine: {'line': b'      /home/shorif/miniconda3/lib\n'}
+[0.998244] (interfaces) StderrLine: {'line': b'\n'}
+[0.998294] (interfaces) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.998346] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.998396] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[0.998448] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[0.998500] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.998551] (interfaces) StderrLine: {'line': b'\n'}
+[0.998601] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.000742] (-) TimerEvent: {}
+[1.001129] (interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[1.001226] (interfaces) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.001290] (interfaces) StderrLine: {'line': b'  interfaces__rosidl_typesupport_introspection_c__pyext because files in some\n'}
+[1.001344] (interfaces) StderrLine: {'line': b'  directories may conflict with libraries in implicit directories:\n'}
+[1.001398] (interfaces) StderrLine: {'line': b'\n'}
+[1.001452] (interfaces) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.001515] (interfaces) StderrLine: {'line': b'      /home/shorif/miniconda3/lib\n'}
+[1.001568] (interfaces) StderrLine: {'line': b'\n'}
+[1.001620] (interfaces) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.001670] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.001721] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.001772] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[1.001823] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.001874] (interfaces) StderrLine: {'line': b'\n'}
+[1.001919] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.004509] (interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /opt/ros/iron/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:226 (add_library):\n'}
+[1.004569] (interfaces) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target\n'}
+[1.004621] (interfaces) StderrLine: {'line': b'  interfaces__rosidl_typesupport_c__pyext because files in some directories\n'}
+[1.004673] (interfaces) StderrLine: {'line': b'  may conflict with libraries in implicit directories:\n'}
+[1.004734] (interfaces) StderrLine: {'line': b'\n'}
+[1.004785] (interfaces) StderrLine: {'line': b'    runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.004837] (interfaces) StderrLine: {'line': b'      /home/shorif/miniconda3/lib\n'}
+[1.004888] (interfaces) StderrLine: {'line': b'\n'}
+[1.004933] (interfaces) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.004974] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.005015] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.005063] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:316 (ament_execute_extensions)\n'}
+[1.005106] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[1.005149] (interfaces) StderrLine: {'line': b'\n'}
+[1.005209] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[1.012874] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.016865] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces\n'}
+[1.046758] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.056314] (interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_interfaces\n'}
+[1.100837] (-) TimerEvent: {}
+[1.193590] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.200894] (-) TimerEvent: {}
+[1.201854] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[1.202142] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[1.202352] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[1.217838] (interfaces) StdoutLine: {'line': b'[  2%] Built target interfaces__rosidl_generator_type_description\n'}
+[1.225752] (interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.225880] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.226372] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.233692] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.248288] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.300982] (-) TimerEvent: {}
+[1.401196] (-) TimerEvent: {}
+[1.501421] (-) TimerEvent: {}
+[1.601632] (-) TimerEvent: {}
+[1.609419] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[1.644576] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.657632] (interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/make_square__description.c.o\x1b[0m\n'}
+[1.657826] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/make_square__functions.c.o\x1b[0m\n'}
+[1.657946] (interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/make_square__type_support.c.o\x1b[0m\n'}
+[1.658063] (interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/make_square__description.c.o\x1b[0m\n'}
+[1.658163] (interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/make_square__functions.c.o\x1b[0m\n'}
+[1.658398] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/make_square__type_support.c.o\x1b[0m\n'}
+[1.701733] (-) TimerEvent: {}
+[1.776152] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.801789] (-) TimerEvent: {}
+[1.812964] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_generator_c\n'}
+[1.820460] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.820696] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.820774] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.820856] (interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.820923] (interfaces) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.820981] (interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.901907] (-) TimerEvent: {}
+[2.002202] (-) TimerEvent: {}
+[2.064640] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.079237] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.080075] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.080672] (interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.089349] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.089509] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.102266] (-) TimerEvent: {}
+[2.126786] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.140063] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.140284] (interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.160911] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.164919] (interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.167945] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.170640] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/make_square__type_support.c.o\x1b[0m\n'}
+[2.171814] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/make_square__type_support.c.o\x1b[0m\n'}
+[2.184670] (interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/make_square__type_support_c.cpp.o\x1b[0m\n'}
+[2.184918] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/make_square__type_support_c.cpp.o\x1b[0m\n'}
+[2.190633] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.202393] (-) TimerEvent: {}
+[2.206106] (interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.207869] (interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/make_square__type_support.cpp.o\x1b[0m\n'}
+[2.210426] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_c\n'}
+[2.224967] (interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.251548] (interfaces) StdoutLine: {'line': b'[ 68%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[2.302545] (-) TimerEvent: {}
+[2.402961] (-) TimerEvent: {}
+[2.495080] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.503045] (-) TimerEvent: {}
+[2.550849] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.603157] (-) TimerEvent: {}
+[2.662626] (interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.703252] (-) TimerEvent: {}
+[2.703896] (interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.719429] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[2.762123] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.803319] (-) TimerEvent: {}
+[2.892590] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.903383] (-) TimerEvent: {}
+[2.951319] (interfaces) StdoutLine: {'line': b'[ 77%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.966427] (interfaces) StdoutLine: {'line': b'[ 77%] Built target interfaces\n'}
+[2.981223] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.003446] (-) TimerEvent: {}
+[3.103635] (-) TimerEvent: {}
+[3.203858] (-) TimerEvent: {}
+[3.304036] (-) TimerEvent: {}
+[3.404435] (-) TimerEvent: {}
+[3.504593] (-) TimerEvent: {}
+[3.604748] (-) TimerEvent: {}
+[3.644881] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__py\n'}
+[3.652803] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.665702] (interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_make_square_s.c.o\x1b[0m\n'}
+[3.665832] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_make_square_s.c.o\x1b[0m\n'}
+[3.704838] (-) TimerEvent: {}
+[3.790676] (interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.804905] (-) TimerEvent: {}
+[3.822637] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__rosidl_generator_py\n'}
+[3.830485] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.830631] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.830699] (interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.840937] (interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.841058] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.841254] (interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.905018] (-) TimerEvent: {}
+[3.937637] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.937835] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.937956] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.969834] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.970017] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.970094] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[3.978910] (interfaces) CommandEnded: {'returncode': 0}
+[4.005071] (-) TimerEvent: {}
+[4.045236] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.051628] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces'], 'cwd': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'shorif'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/shorif'), ('CONDA_SHLVL', '1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3595'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shorif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shorif'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/shorif/miniconda3/bin:/home/shorif/miniconda3/condabin:/home/shorif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Shorifs-Rechner:@/tmp/.ICE-unix/2228,unix/Shorifs-Rechner:/tmp/.ICE-unix/2228'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/892f28ef_92fa_44ba_906d_806b62d3f87f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/shorif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shorif/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/shorif/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.057450] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.057560] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[4.057625] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/srv/MakeSquare.json\n'}
+[4.057747] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/action/MakeSquare.json\n'}
+[4.057922] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.057997] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.058078] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.058132] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.058174] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/make_square.h\n'}
+[4.058224] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.058279] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__functions.c\n'}
+[4.058399] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__functions.h\n'}
+[4.058563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__type_support.h\n'}
+[4.058692] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__description.c\n'}
+[4.058973] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__type_support.c\n'}
+[4.059096] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__struct.h\n'}
+[4.059223] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.059281] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/make_square.h\n'}
+[4.059386] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.059440] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__functions.c\n'}
+[4.059677] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__functions.h\n'}
+[4.059920] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__type_support.h\n'}
+[4.060095] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__description.c\n'}
+[4.060341] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__type_support.c\n'}
+[4.060482] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__struct.h\n'}
+[4.060690] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[4.060822] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[4.060925] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[4.061442] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[4.061622] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.061729] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.061862] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.061947] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.062041] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.062149] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__rosidl_typesupport_fastrtps_c.h\n'}
+[4.062231] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.062313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.062393] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_c.h\n'}
+[4.062484] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.062573] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.062645] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.062730] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.062791] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.062837] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.062879] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.062955] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__rosidl_typesupport_introspection_c.h\n'}
+[4.063045] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__type_support.c\n'}
+[4.063140] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.063193] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.063240] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__rosidl_typesupport_introspection_c.h\n'}
+[4.063290] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__type_support.c\n'}
+[4.063331] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.063680] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.063807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[4.064374] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.064472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.064543] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.064587] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/make_square.hpp\n'}
+[4.064666] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.064710] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__builder.hpp\n'}
+[4.064784] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__traits.hpp\n'}
+[4.064931] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__struct.hpp\n'}
+[4.065080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.065162] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/make_square.hpp\n'}
+[4.065253] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.065329] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__builder.hpp\n'}
+[4.065436] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__traits.hpp\n'}
+[4.065615] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__struct.hpp\n'}
+[4.065834] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.065937] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.066037] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.066086] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.066131] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.066221] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[4.066292] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.066336] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.066386] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.066428] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps\n'}
+[4.066468] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.066796] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.067637] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.067727] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces\n'}
+[4.067810] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.067854] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.067895] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__type_support.cpp\n'}
+[4.067959] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/srv/detail/make_square__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.068071] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action\n'}
+[4.068158] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail\n'}
+[4.068206] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__type_support.cpp\n'}
+[4.068385] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/include/interfaces/interfaces/action/detail/make_square__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.068878] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.069690] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.070047] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[4.070735] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.070803] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[4.070876] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[4.070939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[4.070990] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.071058] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.071142] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.071267] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.071412] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces\n'}
+[4.071480] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.071657] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[4.071888] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/__init__.py\n'}
+[4.071998] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.072198] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.072516] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.072749] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.072973] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv\n'}
+[4.073042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv/__init__.py\n'}
+[4.073144] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv/_make_square_s.c\n'}
+[4.073309] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv/_make_square.py\n'}
+[4.073474] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.073674] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action\n'}
+[4.073738] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action/__init__.py\n'}
+[4.073839] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action/_make_square_s.c\n'}
+[4.074042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action/_make_square.py\n'}
+[4.104688] (interfaces) StdoutLine: {'line': b"Listing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces'...\n"}
+[4.104796] (interfaces) StdoutLine: {'line': b"Compiling '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/__init__.py'...\n"}
+[4.104859] (interfaces) StdoutLine: {'line': b"Listing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action'...\n"}
+[4.104916] (interfaces) StdoutLine: {'line': b"Compiling '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action/__init__.py'...\n"}
+[4.104972] (interfaces) StdoutLine: {'line': b"Compiling '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/action/_make_square.py'...\n"}
+[4.105024] (interfaces) StdoutLine: {'line': b"Listing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv'...\n"}
+[4.105073] (-) TimerEvent: {}
+[4.105157] (interfaces) StdoutLine: {'line': b"Compiling '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv/__init__.py'...\n"}
+[4.105219] (interfaces) StdoutLine: {'line': b"Compiling '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/srv/_make_square.py'...\n"}
+[4.107693] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.108145] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.108329] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.108680] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.108847] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.109214] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/python3.10/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.109353] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[4.109774] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[4.109847] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/srv/MakeSquare.idl\n'}
+[4.109909] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/action/MakeSquare.idl\n'}
+[4.110000] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/srv/MakeSquare.srv\n'}
+[4.110093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/srv/MakeSquare_Request.msg\n'}
+[4.110154] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/srv/MakeSquare_Response.msg\n'}
+[4.110197] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/action/MakeSquare.action\n'}
+[4.110268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.110337] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.110443] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.110515] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.110610] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.110703] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.110764] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.110807] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.110849] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.110914] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.110957] (interfaces) StdoutLine: {'line': b'-- Installing: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/package.dsv\n'}
+[4.111000] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.111075] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.111121] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.111202] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.111264] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.111409] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.111477] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.111565] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.111641] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.111725] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.111871] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.111939] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.112080] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.112144] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.112238] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.112302] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.112398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.112472] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.112562] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.112645] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.112751] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.112813] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.112856] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.112899] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.112941] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.112984] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.113025] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.113076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces/share/interfaces/package.xml\n'}
+[4.114466] (interfaces) CommandEnded: {'returncode': 0}
+[4.197562] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.198164] (-) EventReactorShutdown: {}

@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000387] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000417] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.005038] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.005423] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/interfaces'], 'cwd': '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'shorif'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/shorif'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3024'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'shorif'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'shorif'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/shorif/miniconda3/bin:/home/shorif/miniconda3/condabin:/home/shorif/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Shorifs-Rechner:@/tmp/.ICE-unix/2342,unix/Shorifs-Rechner:/tmp/.ICE-unix/2342'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/891a988d_e475_43a9_92a9_ea7baad4b1e3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.99'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('CONDA_PYTHON_EXE', '/home/shorif/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/shorif/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('CONDA_PREFIX', '/home/shorif/miniconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.015323] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.100117] (-) TimerEvent: {}
+[0.101628] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.102990] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.125092] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.143618] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.200411] (-) TimerEvent: {}
+[0.207859] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.207957] (interfaces) StdoutLine: {'line': b'See also "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.208025] (interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):\n'}
+[0.208097] (interfaces) StderrLine: {'line': b'  execute_process(/home/shorif/miniconda3/bin/python3.10 -m rosidl_adapter\n'}
+[0.208149] (interfaces) StderrLine: {'line': b'  --package-name interfaces --arguments-file\n'}
+[0.208197] (interfaces) StderrLine: {'line': b'  /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[0.208246] (interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.208292] (interfaces) StderrLine: {'line': b'  /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter/interfaces\n'}
+[0.208337] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.208381] (interfaces) StderrLine: {'line': b'  /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter/interfaces.idls)\n'}
+[0.208425] (interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.208468] (interfaces) StderrLine: {'line': b'\n'}
+[0.208512] (interfaces) StderrLine: {'line': b"  AttributeError processing template 'srv.idl.em'\n"}
+[0.208557] (interfaces) StderrLine: {'line': b'\n'}
+[0.208601] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.208645] (interfaces) StderrLine: {'line': b'\n'}
+[0.208688] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/resource/__init__.py", line 48, in evaluate_template\n'}
+[0.208738] (interfaces) StderrLine: {'line': b'      _interpreter = em.Interpreter(\n'}
+[0.208783] (interfaces) StderrLine: {'line': b'\n'}
+[0.208826] (interfaces) StderrLine: {'line': b"  AttributeError: module 'em' has no attribute 'Interpreter'\n"}
+[0.208868] (interfaces) StderrLine: {'line': b'\n'}
+[0.208910] (interfaces) StderrLine: {'line': b'  \n'}
+[0.208951] (interfaces) StderrLine: {'line': b'\n'}
+[0.208993] (interfaces) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.209034] (interfaces) StderrLine: {'line': b'\n'}
+[0.209075] (interfaces) StderrLine: {'line': b'  \n'}
+[0.209120] (interfaces) StderrLine: {'line': b'\n'}
+[0.209163] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.209215] (interfaces) StderrLine: {'line': b'\n'}
+[0.209258] (interfaces) StderrLine: {'line': b'    File "/home/shorif/miniconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.209302] (interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.209345] (interfaces) StderrLine: {'line': b'    File "/home/shorif/miniconda3/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.209388] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.209452] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.209502] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.209547] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.209591] (interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.209634] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.209677] (interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[0.209719] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py", line 39, in convert_srv_to_idl\n'}
+[0.209761] (interfaces) StderrLine: {'line': b"      expand_template('srv.idl.em', data, output_file, encoding='iso-8859-1')\n"}
+[0.209807] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template\n'}
+[0.209851] (interfaces) StderrLine: {'line': b'      content = evaluate_template(template_name, data)\n'}
+[0.209892] (interfaces) StderrLine: {'line': b'    File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template\n'}
+[0.209934] (interfaces) StderrLine: {'line': b'      _interpreter.shutdown()\n'}
+[0.209975] (interfaces) StderrLine: {'line': b'\n'}
+[0.210016] (interfaces) StderrLine: {'line': b"  AttributeError: 'NoneType' object has no attribute 'shutdown'\n"}
+[0.210057] (interfaces) StderrLine: {'line': b'\n'}
+[0.210099] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.210140] (interfaces) StderrLine: {'line': b'  /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)\n'}
+[0.210182] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[0.210223] (interfaces) StderrLine: {'line': b'\n'}
+[0.210263] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.211731] (interfaces) CommandEnded: {'returncode': 1}
+[0.212224] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[0.222510] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.592s] Invoking command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build install --record /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log --single-version-externally-managed install_data
+[0.752s] running egg_info
+[0.752s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.754s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.755s] running install
+[0.755s] running install_lib
+[0.756s] running install_data
+[0.756s] running install_egg_info
+[0.757s] removing '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.757s] Copying ../../build/my_package/my_package.egg-info to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.757s] running install_scripts
+[0.770s] Installing client script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package
+[0.770s] Installing service script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package
+[0.770s] writing list of installed files to '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log'
+[0.785s] Invoked command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build install --record /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log --single-version-externally-managed install_data

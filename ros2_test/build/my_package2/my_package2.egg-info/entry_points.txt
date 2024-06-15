@@ -1,0 +1,4 @@
+[console_scripts]
+action_client = my_package2.A_Action_Client:main
+action_server = my_package2.B_Action_Server:main
+

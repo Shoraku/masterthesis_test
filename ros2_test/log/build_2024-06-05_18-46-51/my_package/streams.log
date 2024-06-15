@@ -1,0 +1,41 @@
+[0.409s] Invoking command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build install --record /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log --single-version-externally-managed install_data
+[0.564s] running egg_info
+[0.564s] creating ../../build/my_package/my_package.egg-info
+[0.564s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.564s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.564s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.564s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.564s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.565s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.565s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.566s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.566s] running build
+[0.566s] running build_py
+[0.566s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build
+[0.566s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib
+[0.566s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package
+[0.566s] copying my_package/__init__.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package
+[0.566s] copying my_package/B.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package
+[0.566s] copying my_package/A.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package
+[0.567s] running install
+[0.567s] running install_lib
+[0.567s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package
+[0.568s] copying /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package/__init__.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package
+[0.568s] copying /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package/B.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package
+[0.568s] copying /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build/lib/my_package/A.py -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package
+[0.568s] byte-compiling /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package/B.py to B.cpython-310.pyc
+[0.568s] byte-compiling /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package/A.py to A.cpython-310.pyc
+[0.569s] running install_data
+[0.569s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/share/ament_index
+[0.569s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/share/ament_index/resource_index
+[0.569s] creating /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/share/ament_index/resource_index/packages
+[0.569s] copying resource/my_package -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/share/ament_index/resource_index/packages
+[0.569s] copying package.xml -> /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/share/my_package
+[0.569s] running install_egg_info
+[0.570s] Copying ../../build/my_package/my_package.egg-info to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.571s] running install_scripts
+[0.583s] Installing client script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package
+[0.583s] Installing service script to /home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/my_package
+[0.583s] writing list of installed files to '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log'
+[0.597s] Invoked command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/src/my_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/prefix_override:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/build install --record /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/my_package/install.log --single-version-externally-managed install_data

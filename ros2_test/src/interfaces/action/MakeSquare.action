@@ -1,0 +1,14 @@
+int32 sender_id 
+int32 receiver_id
+string message_type
+builtin_interfaces/Time timestamp
+float32 value 
+---
+int32 sender_id 
+int32 receiver_id
+string message_type
+builtin_interfaces/Time timestamp
+float32 result
+builtin_interfaces/Time timeslot
+---
+string calculation_process

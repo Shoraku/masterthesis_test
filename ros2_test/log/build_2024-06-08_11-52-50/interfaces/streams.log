@@ -1,0 +1,55 @@
+[0.010s] Invoking command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces -- -j16 -l16
+[0.031s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.131s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.133s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.187s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.267s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.267s]   execute_process(/home/shorif/miniconda3/bin/python3.10 -m rosidl_adapter
+[0.267s]   --package-name interfaces --arguments-file
+[0.268s]   /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[0.268s]   --output-dir
+[0.268s]   /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter/interfaces
+[0.268s]   --output-file
+[0.268s]   /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/rosidl_adapter/interfaces.idls)
+[0.268s]   returned error code 1:
+[0.268s] 
+[0.268s]   Error processing 'float result' of 'interfaces/MakeSquare_Feedback':
+[0.268s]   ''float' is an invalid message name.  It should have the pattern
+[0.268s]   '^[A-Z][A-Za-z0-9]*$''
+[0.268s] 
+[0.268s]   Traceback (most recent call last):
+[0.268s] 
+[0.268s]     File "/home/shorif/miniconda3/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.268s]       return _run_code(code, main_globals, None,
+[0.268s]     File "/home/shorif/miniconda3/lib/python3.10/runpy.py", line 86, in _run_code
+[0.268s]       exec(code, run_globals)
+[0.268s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.268s]       sys.exit(main())
+[0.268s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.268s]       abs_idl_file = convert_to_idl(
+[0.268s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.269s]       return convert_action_to_idl(
+[0.269s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.269s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.269s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 907, in parse_action_string
+[0.269s]       feedback_message = parse_message_string(
+[0.269s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 521, in parse_message_string
+[0.269s]       Type(type_string, context_package_name=pkg_name),
+[0.269s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 278, in __init__
+[0.269s]       super(Type, self).__init__(
+[0.269s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.269s]       raise InvalidResourceName(
+[0.269s] 
+[0.269s]   rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+[0.269s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.269s] 
+[0.269s] Call Stack (most recent call first):
+[0.269s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.269s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.269s] 
+[0.269s] [0m
+[0.269s] -- Configuring incomplete, errors occurred!
+[0.269s] See also "/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.274s] gmake: *** [Makefile:815: cmake_check_build_system] Fehler 1
+[0.276s] Invoked command in '/home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shorif/Schreibtisch/Masterarbeit/ros2_test/install/my_package:/opt/ros/iron CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shorif/Schreibtisch/Masterarbeit/ros2_test/build/interfaces -- -j16 -l16
