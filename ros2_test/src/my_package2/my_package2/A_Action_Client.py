@@ -53,7 +53,7 @@ class A_Action_Client(Node):
             self.get_logger().info(f'Result: {result.result}\nWith the Server ID: {self.server_id}\n')
         
         # repeating 
-        time.sleep(20)
+        time.sleep(2)
         self.send_goal()
 
     def after_timer_callback(self):
